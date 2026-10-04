@@ -1,0 +1,50 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CDH confidential data
+data/raw/*
+data/validated/*
+data/processed/*
+data/quarantine/*
+data/reference/*
+
+# Local databases
+database/*.duckdb
+database/*.db
+
+# Model artifacts
+models/*
+
+# Logs
+logs/*
+
+# MLflow artifacts
+mlruns/
+mlartifacts/
+
+# Secrets/environment
+.env
+.env.*
+*.key
+*.pem
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code local settings
+.vscode/
+# Governed staging and test artifacts
+data/staging/
+database/staging/
+database/versions/
+database/backups/
+database/current.json
+database/*.tmp
